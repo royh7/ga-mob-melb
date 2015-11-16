@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskKnot/VC2.swift"
+            timestampString = "468982004.966621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "VC2"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskKnot.VC2.init (TaskKnot.VC2.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TaskKnot.VC2"
+                  moduleName = "TaskKnot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adeperio/dev/ga-scratch/TaskKnot/TaskKnot/VC2.swift"
+                  timestampString = "468982129.593638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaskKnot.VC2.init (TaskKnot.VC2.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TaskKnot.VC2&gt;"
+                  moduleName = "TaskKnot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adeperio/dev/ga-scratch/TaskKnot/TaskKnot/VC2.swift"
+                  timestampString = "468982129.593865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
