@@ -12,8 +12,11 @@
 		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
 		5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68319D8CFFE0082F2DE /* Images.xcassets */; };
 		5D06C69319D8CFFE0082F2DE /* Lesson01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */; };
+<<<<<<< HEAD
 		D373C1951BF8F32400CF6EC0 /* 156044_10154328065911982_4090345460457368338_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D373C1941BF8F32400CF6EC0 /* 156044_10154328065911982_4090345460457368338_n.jpg */; };
 		D373C1971BF99B7000CF6EC0 /* fishing-gear-reviews-welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D373C1961BF99B7000CF6EC0 /* fishing-gear-reviews-welcome.jpg */; };
+=======
+>>>>>>> 53bd4d7c1f6d60ac0516867f407a4eb63cbcf0a6
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,11 @@
 		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D06C69119D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01Tests.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		D373C1941BF8F32400CF6EC0 /* 156044_10154328065911982_4090345460457368338_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 156044_10154328065911982_4090345460457368338_n.jpg; path = ../156044_10154328065911982_4090345460457368338_n.jpg; sourceTree = "<group>"; };
 		D373C1961BF99B7000CF6EC0 /* fishing-gear-reviews-welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fishing-gear-reviews-welcome.jpg"; sourceTree = "<group>"; };
+=======
+>>>>>>> 53bd4d7c1f6d60ac0516867f407a4eb63cbcf0a6
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,11 @@
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
 				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
 				5D06C68319D8CFFE0082F2DE /* Images.xcassets */,
+<<<<<<< HEAD
 				D373C1941BF8F32400CF6EC0 /* 156044_10154328065911982_4090345460457368338_n.jpg */,
 				D373C1961BF99B7000CF6EC0 /* fishing-gear-reviews-welcome.jpg */,
+=======
+>>>>>>> 53bd4d7c1f6d60ac0516867f407a4eb63cbcf0a6
 				5D06C67A19D8CFFE0082F2DE /* Supporting Files */,
 			);
 			path = Lesson01;
@@ -165,7 +174,11 @@
 				TargetAttributes = {
 					5D06C67619D8CFFE0082F2DE = {
 						CreatedOnToolsVersion = 6.0.1;
+<<<<<<< HEAD
 						DevelopmentTeam = V4QU62B9E7;
+=======
+						DevelopmentTeam = V29JMF22R3;
+>>>>>>> 53bd4d7c1f6d60ac0516867f407a4eb63cbcf0a6
 					};
 					5D06C68B19D8CFFE0082F2DE = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -197,8 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				D373C1971BF99B7000CF6EC0 /* fishing-gear-reviews-welcome.jpg in Resources */,
 				D373C1951BF8F32400CF6EC0 /* 156044_10154328065911982_4090345460457368338_n.jpg in Resources */,
+=======
+>>>>>>> 53bd4d7c1f6d60ac0516867f407a4eb63cbcf0a6
 				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
 				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
 			);
