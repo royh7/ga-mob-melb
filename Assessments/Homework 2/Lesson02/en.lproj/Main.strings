@@ -1,0 +1,54 @@
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "2QZ-gn-Ycc"; */
+"2QZ-gn-Ycc.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "BLG-wH-QXc"; */
+"BLG-wH-QXc.normalTitle" = "Add";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "EwM-Jh-7YE"; */
+"EwM-Jh-7YE.title" = "Next";
+
+/* Class = "UITextField"; placeholder = "Age"; ObjectID = "HD3-Of-BAd"; */
+"HD3-Of-BAd.placeholder" = "Age";
+
+/* Class = "UILabel"; text = "Should print the xth fibonacci number"; ObjectID = "Hpk-q1-6qc"; */
+"Hpk-q1-6qc.text" = "Should print the xth fibonacci number";
+
+/* Class = "UIButton"; normalTitle = "Click Here"; ObjectID = "IOD-kq-9lj"; */
+"IOD-kq-9lj.normalTitle" = "Click Here";
+
+/* Class = "UITextField"; placeholder = "Number"; ObjectID = "UJA-B5-7Cz"; */
+"UJA-B5-7Cz.placeholder" = "Number";
+
+/* Class = "UITextField"; placeholder = "Enter a number"; ObjectID = "Y9T-1j-GS4"; */
+"Y9T-1j-GS4.placeholder" = "Enter a number";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "Yim-2Z-LSM"; */
+"Yim-2Z-LSM.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "aVV-GO-Y1O"; */
+"aVV-GO-Y1O.normalTitle" = "Calculate";
+
+/* Class = "UITextField"; placeholder = "Enter a number"; ObjectID = "dsS-73-FSq"; */
+"dsS-73-FSq.placeholder" = "Enter a number";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "dvu-Gz-gU3"; */
+"dvu-Gz-gU3.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lwB-ZM-P5R"; */
+"lwB-ZM-P5R.text" = "Label";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "qiz-6d-s2d"; */
+"qiz-6d-s2d.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "uuM-Ik-raV"; */
+"uuM-Ik-raV.normalTitle" = "Calculate";
+
+/* Class = "UILabel"; text = "Placeholder text, replace me!"; ObjectID = "v2W-sh-fBn"; */
+"v2W-sh-fBn.text" = "Placeholder text, replace me!";
+
+/* Class = "UIButton"; normalTitle = "Generate text!"; ObjectID = "vvU-j8-0it"; */
+"vvU-j8-0it.normalTitle" = "Generate text!";
+
+/* Class = "UILabel"; text = "Should print 'is even' or 'is not even'"; ObjectID = "y0y-Zz-8RE"; */
+"y0y-Zz-8RE.text" = "Should print 'is even' or 'is not even'";

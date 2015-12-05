@@ -34,64 +34,106 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dvu-Gz-gU3">
-                                <rect key="frame" x="200" y="90" width="200" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="144" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HD3-Of-BAd">
+                                <rect key="frame" x="228" y="139" width="144" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="SKa-eE-UT2"/>
+                                    <constraint firstAttribute="height" constant="30" id="mzp-gl-SqV"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HD3-Of-BAd">
-                                <rect key="frame" x="200" y="139" width="200" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Placeholder text, replace me!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2W-sh-fBn">
-                                <rect key="frame" x="138" y="249" width="325" height="101"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvU-j8-0it">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvU-j8-0it">
                                 <rect key="frame" x="251" y="188" width="98" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="DYm-aE-RMN"/>
+                                    <constraint firstAttribute="width" constant="98" id="qdW-M6-YrI"/>
+                                </constraints>
                                 <state key="normal" title="Generate text!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="AgeCheck2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="csR-Ck-REy"/>
+                                    <action selector="changeLabel1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vew-uK-P8n"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwB-ZM-P5R">
-                                <rect key="frame" x="279" y="398" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwB-ZM-P5R">
+                                <rect key="frame" x="235" y="484" width="130" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="WBK-sJ-rCG"/>
-                                    <constraint firstAttribute="width" constant="42" id="vMl-jd-dAN"/>
+                                    <constraint firstAttribute="width" constant="130" id="0oC-vO-4Yk"/>
+                                    <constraint firstAttribute="height" constant="21" id="DaC-PV-BuV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOD-kq-9lj">
-                                <rect key="frame" x="264" y="448" width="71" height="30"/>
+                                <rect key="frame" x="264" y="426" width="71" height="30"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="71" id="A2V-Rj-HCR"/>
-                                    <constraint firstAttribute="height" constant="30" id="Mh5-kD-oY0"/>
+                                    <constraint firstAttribute="width" constant="71" id="hTg-Fd-D1p"/>
+                                    <constraint firstAttribute="height" constant="30" id="jQT-mz-xSs"/>
                                 </constraints>
                                 <state key="normal" title="Click Here"/>
+                                <connections>
+                                    <action selector="changeLabel2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iGG-zF-cBW"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2W-sh-fBn">
+                                <rect key="frame" x="297" y="226" width="5" height="47"/>
+                                <animations/>
+                                <attributedString key="attributedText">
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxs-2C-aWV">
+                                <rect key="frame" x="151" y="249" width="298" height="81"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="9pj-81-RAz"/>
+                                    <constraint firstAttribute="width" constant="298" id="NWB-r5-lk9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="146.5" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dvu-Gz-gU3">
+                                <rect key="frame" x="226" y="90" width="147" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BrO-vD-rES"/>
+                                    <constraint firstAttribute="width" constant="147" id="gEW-F0-oud"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IOD-kq-9lj" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="0NZ-PE-3JE"/>
-                            <constraint firstItem="v2W-sh-fBn" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="8Qn-SJ-F61"/>
-                            <constraint firstItem="IOD-kq-9lj" firstAttribute="top" secondItem="lwB-ZM-P5R" secondAttribute="bottom" constant="29" id="CME-b1-2fe"/>
-                            <constraint firstItem="dvu-Gz-gU3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Jka-kI-xaV"/>
-                            <constraint firstItem="lwB-ZM-P5R" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="QBa-2T-WRi"/>
-                            <constraint firstItem="vvU-j8-0it" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Zz6-6W-Pec"/>
-                            <constraint firstItem="HD3-Of-BAd" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="hT9-fe-HgK"/>
-                            <constraint firstItem="lwB-ZM-P5R" firstAttribute="top" secondItem="v2W-sh-fBn" secondAttribute="bottom" constant="48" id="ixf-Qa-DVm"/>
+                            <constraint firstItem="vvU-j8-0it" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="1xB-EF-m85"/>
+                            <constraint firstItem="HD3-Of-BAd" firstAttribute="top" secondItem="dvu-Gz-gU3" secondAttribute="bottom" constant="19" id="6o1-PE-bxg"/>
+                            <constraint firstItem="v2W-sh-fBn" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="-0.5" id="8Qn-SJ-F61"/>
+                            <constraint firstItem="pxs-2C-aWV" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="CrZ-Ny-M5z"/>
+                            <constraint firstItem="lwB-ZM-P5R" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="HdJ-H9-Uq0"/>
+                            <constraint firstItem="dvu-Gz-gU3" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="26" id="TAV-cj-SQi"/>
+                            <constraint firstItem="HD3-Of-BAd" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Tsl-HK-AmL"/>
+                            <constraint firstItem="v2W-sh-fBn" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="-50.5" id="VsE-sX-GWE"/>
+                            <constraint firstItem="dvu-Gz-gU3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="cfL-Xo-ZdN"/>
+                            <constraint firstItem="pxs-2C-aWV" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="185" id="fRs-tV-QtH"/>
+                            <constraint firstItem="vvU-j8-0it" firstAttribute="top" secondItem="HD3-Of-BAd" secondAttribute="bottom" constant="19" id="iSf-dU-xvo"/>
+                            <constraint firstItem="lwB-ZM-P5R" firstAttribute="top" secondItem="IOD-kq-9lj" secondAttribute="bottom" constant="28" id="qJy-Rj-ten"/>
+                            <constraint firstItem="IOD-kq-9lj" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="rnv-yA-PI0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eCL-8y-xIB">
@@ -101,6 +143,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="AgeCheckLabel" destination="pxs-2C-aWV" id="c0O-Us-k2h"/>
+                        <outlet property="AgeField" destination="HD3-Of-BAd" id="mJd-sp-eEv"/>
+                        <outlet property="NameAgeLabel" destination="v2W-sh-fBn" id="YBV-lL-O2a"/>
+                        <outlet property="NameField" destination="dvu-Gz-gU3" id="olW-IY-rBn"/>
+                        <outlet property="myLabel2" destination="lwB-ZM-P5R" id="0ka-a4-HBd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -149,6 +198,9 @@
                                 <state key="normal" title="Add">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="AddNumberToList:" destination="DXI-gN-4Tg" eventType="touchUpInside" id="e74-CV-RYx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -169,6 +221,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="AddButton" destination="BLG-wH-QXc" id="9bR-e6-k7e"/>
+                        <outlet property="CumulativeNumber" destination="qiz-6d-s2d" id="Jeg-xf-LuH"/>
+                        <outlet property="NumberField" destination="dsS-73-FSq" id="S6D-Yr-fmn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFb-9H-Aa6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -206,8 +263,11 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="OddOrEven:" destination="nKH-F5-XzW" eventType="touchUpInside" id="FEe-9I-alk"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should print 'is even' or 'is not even'" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0y-Zz-8RE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0y-Zz-8RE">
                                 <rect key="frame" x="160" y="140" width="280" height="21"/>
                                 <animations/>
                                 <constraints>
@@ -237,6 +297,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="CalculateButton" destination="aVV-GO-Y1O" id="JfR-dU-HD8"/>
+                        <outlet property="InputNumber" destination="UJA-B5-7Cz" id="OE8-nr-wZf"/>
+                        <outlet property="OddOrEvenNumber" destination="y0y-Zz-8RE" id="QR8-cu-dFh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bic-8V-fDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -262,7 +327,7 @@
                                     <constraint firstAttribute="height" constant="30" id="aeb-HN-VWt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuM-Ik-raV">
                                 <rect key="frame" x="268" y="180" width="65" height="30"/>
@@ -274,8 +339,11 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="fibonacciNumberAtIndex:" destination="BPG-Q0-b6p" eventType="touchUpInside" id="Iww-I9-UyX"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should print the xth fibonacci number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-q1-6qc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-q1-6qc">
                                 <rect key="frame" x="155" y="138" width="290" height="21"/>
                                 <animations/>
                                 <constraints>
@@ -298,6 +366,11 @@
                             <constraint firstItem="uuM-Ik-raV" firstAttribute="top" secondItem="Hpk-q1-6qc" secondAttribute="bottom" constant="21" id="scm-VI-6lk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Calculate" destination="uuM-Ik-raV" id="O9w-AV-RIZ"/>
+                        <outlet property="X" destination="Y9T-1j-GS4" id="f4d-V6-sQj"/>
+                        <outlet property="XthFibonacciNumber" destination="Hpk-q1-6qc" id="PIr-aL-xzb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LL4-Hq-ZaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
