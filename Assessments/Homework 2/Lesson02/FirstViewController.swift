@@ -9,6 +9,7 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+<<<<<<< HEAD
     //  TODO two: Connect the ‘name’ and ‘age’ text boxes to this class. Hook up the button to a NEW function (in addition to the function previously defined). That function must look at the string entered in the text box and print out “Hello {name}, you are {age} years old!”
     
     @IBOutlet weak var NameAgeLabel: UILabel?

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LUb-Ej-wn6">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LUb-Ej-wn6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+>>>>>>> d09d5372a5cb660c966041608cddee0633af35e4
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -67,7 +74,7 @@
                                     <constraint firstAttribute="height" constant="21" id="DaC-PV-BuV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOD-kq-9lj">
@@ -77,9 +84,18 @@
                                     <constraint firstAttribute="width" constant="71" id="hTg-Fd-D1p"/>
                                     <constraint firstAttribute="height" constant="30" id="jQT-mz-xSs"/>
                                 </constraints>
+<<<<<<< HEAD
                                 <state key="normal" title="Click Here"/>
                                 <connections>
                                     <action selector="changeLabel2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iGG-zF-cBW"/>
+=======
+                                <state key="normal" title="Generate text!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fucntion2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ogw-0H-63B"/>
+                                    <action selector="function1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SfE-tn-15a"/>
+>>>>>>> d09d5372a5cb660c966041608cddee0633af35e4
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2W-sh-fBn">
@@ -175,7 +191,7 @@
                                     <constraint firstAttribute="width" constant="74" id="xjJ-ke-pIy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dsS-73-FSq">
@@ -199,7 +215,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+<<<<<<< HEAD
                                     <action selector="AddNumberToList:" destination="DXI-gN-4Tg" eventType="touchUpInside" id="e74-CV-RYx"/>
+=======
+                                    <action selector="add:" destination="DXI-gN-4Tg" eventType="touchUpInside" id="MTw-CB-2nJ"/>
+>>>>>>> d09d5372a5cb660c966041608cddee0633af35e4
                                 </connections>
                             </button>
                         </subviews>
@@ -222,9 +242,14 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="AddButton" destination="BLG-wH-QXc" id="9bR-e6-k7e"/>
                         <outlet property="CumulativeNumber" destination="qiz-6d-s2d" id="Jeg-xf-LuH"/>
                         <outlet property="NumberField" destination="dsS-73-FSq" id="S6D-Yr-fmn"/>
+=======
+                        <outlet property="resultLabel" destination="qiz-6d-s2d" id="MMk-fV-fJT"/>
+                        <outlet property="textField" destination="dsS-73-FSq" id="gk5-7c-RnX"/>
+>>>>>>> d09d5372a5cb660c966041608cddee0633af35e4
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFb-9H-Aa6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -275,7 +300,7 @@
                                     <constraint firstAttribute="width" constant="280" id="kUX-Vx-gNv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -351,7 +376,7 @@
                                     <constraint firstAttribute="width" constant="290" id="g9h-KO-Q6i"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
